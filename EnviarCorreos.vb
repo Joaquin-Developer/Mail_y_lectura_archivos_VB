@@ -1,6 +1,8 @@
 Imports System.Net
 Imports System.Net.Mail
 
+' Probar este código en el laboratorio de ESI!!
+
 Module Correos
 
     Private correos As New MailMessage

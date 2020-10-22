@@ -14,7 +14,7 @@ Module Correos
             MsgBox("Mensaje enviado con éxito!", vbInformation, "Mensaje.")
             
         Catch ex As Exception
-            MsgBox(ex.Messaje, vbCritical, "Error")
+            MsgBox(ex.Message, vbCritical, "Error")
         End Try
     End Sub
     
